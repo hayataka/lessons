@@ -1,0 +1,18 @@
+# WtpToMaven
+create dynamic web project in Eclipse. then, convert to maven
+
+ソースからは追いづらい箇所を細くするログファイルです。
+
+・eclipse新規作成⇨web⇨動的webプロジェクト
+　Target Runtime none
+  Dynamic web module version   : 3.0
+  ソースフォルダ：（mavenに後で変更するので、さきにmavenルールで作成）
+  　　src/main/java
+     src/main/resources
+     src/test/java
+     src/test/resources
+   出力先：　build/classesから、　target/classesへ
+   ContextRoot：アプリ名のまま
+   ContentDirectory： WebContentから、src/main/webappへ
+   web.xmlを作成するかは、任意
+
