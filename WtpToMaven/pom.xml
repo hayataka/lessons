@@ -65,7 +65,7 @@
 				<version>${jetty.version}</version>
 				<configuration>
 					<webApp>
-						<contextPath>/aaa</contextPath>
+						<contextPath>/${project.artifactId}</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
