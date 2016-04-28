@@ -16,3 +16,7 @@ create dynamic web project in Eclipse. then, convert to maven
    ContentDirectory： WebContentから、src/main/webappへ
    web.xmlを作成するかは、任意
 
+・maven構成に変換する
+http://kei0310.info/?p=162
+プロジェクトを選択して、右クリック、構成、mavenプロジェクトに変換する
+
