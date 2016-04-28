@@ -20,3 +20,20 @@ create dynamic web project in Eclipse. then, convert to maven
 http://kei0310.info/?p=162
 プロジェクトを選択して、右クリック、構成、mavenプロジェクトに変換する
 
+mvn jetty:run
+(eclipseからだと、実行、実行構成でmaven、　ゴールをjetty:runで実行）
+
+localhost:8080/ でのアクセスが初期設定ここから、
+localhost:8080/WtpToMavenでアクセスできるよう、
+jetty−maven−pluginに
+				<configuration>
+					<webApp>
+						<contextPath>/WtpToMaven</contextPath>
+					</webApp>
+				</configuration>
+を追加
+
+
+
+
+
