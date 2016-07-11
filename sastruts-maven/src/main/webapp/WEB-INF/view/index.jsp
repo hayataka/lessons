@@ -5,5 +5,12 @@
 </head>
 <body>
 Hello!
+
+<br /><br />
+<a  href="${f:url('/add/')}">ajaxへ</a> <br /><br />
+<a  href="${f:url('/ajaxAdd/')}">ajaxAddへ</a>
+
+
+
 </body>
 </html>

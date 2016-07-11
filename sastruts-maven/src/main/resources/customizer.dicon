@@ -9,6 +9,9 @@
         <initMethod name="addAspectCustomizer">
             <arg>"aop.traceInterceptor"</arg>
         </initMethod>
+	    <initMethod name="addAspectCustomizer">
+            <arg>"responseJsonInterceptor"</arg>
+        </initMethod>
         <initMethod name="addAspectCustomizer">
             <arg>"actionMessagesThrowsInterceptor"</arg>
         </initMethod>

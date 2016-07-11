@@ -6,6 +6,8 @@
 	<include path="aop.dicon"/>
 	<include path="j2ee.dicon"/>
 	<include path="s2jdbc.dicon"/>
+
+<component name="responseJsonInterceptor"  class="com.github.hayataka.lessons.interceptor.ResponseJsonInterceptor"/>
 	
 	<component name="actionMessagesThrowsInterceptor" class="org.seasar.struts.interceptor.ActionMessagesThrowsInterceptor"/>
 </components>
